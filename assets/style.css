@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-  max-width: 640px;
+  max-width: 480px;
   margin: 50px auto;
   background: #f1e8f0;
   padding: 20px;
@@ -43,6 +43,20 @@ body {
 .form__input {
   border-radius: 8px;
   border: none;
+ 
+}
+
+.form__button {
+  border-radius: 10px;
+  border: none;
+  background-color: #d79ddf;
+  width: 60%;
+  font-size: 18px;
+  margin-left: 5rem;
+}
+
+.form__button:hover {
+  background-color: #8b117d;
 }
 
 form input, form label, form button {
