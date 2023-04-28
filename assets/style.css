@@ -21,14 +21,23 @@ body {
 .container {
   max-width: 640px;
   margin: 50px auto;
-  background: #d9dedf;
+  background: #f1e8f0;
   padding: 20px;
   border-radius: 10px;
 }
 
-.li {
+.container__title {
+  color:#53045e;
+}
+
+.container__info {
   font-size: 16px;
-  color: #ffffff;
+  color: #53045e;
+}
+
+.label {
+  font-size: 20px;
+  color: #53045e;
 }
 
 form input, form label, form button {
