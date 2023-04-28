@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 :root {
-  --primary-color: rgb(17, 86, 102);
-  --primary-color-darker: rgb(9, 48, 56);
+  --primary-color: rgb(126,123,189);
+  --color-font: #53045e; 
+  --color-container: #f1e8f0;
+  --color-button-1: #d79ddf;
+  --color-button-2: #8b117d;
 }
 
 * {
@@ -12,7 +15,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: rgb(126,123,189);;
+  background: var(--primary-color);
   font-family: 'Open sans', sans-serif;
   font-size: 1.3em;
   line-height: 1.5em;
@@ -21,23 +24,23 @@ body {
 .container {
   max-width: 480px;
   margin: 50px auto;
-  background: #f1e8f0;
+  background: var(--color-container);
   padding: 20px;
   border-radius: 10px;
 }
 
 .container__title {
-  color:#53045e;
+  color: var(--color-font);
 }
 
 .container__info {
   font-size: 16px;
-  color: #53045e;
+  color: var(--color-font);
 }
 
 .label {
   font-size: 18px;
-  color: #53045e;
+  color: var(--color-font);
 }
 
 .form__input {
@@ -49,14 +52,14 @@ body {
 .form__button {
   border-radius: 10px;
   border: none;
-  background-color: #d79ddf;
+  background-color: var(--color-button-1);
   width: 60%;
   font-size: 18px;
   margin-left: 5rem;
 }
 
 .form__button:hover {
-  background-color: #8b117d;
+  background-color: var(--color-button-2);
 }
 
 form input, form label, form button {
