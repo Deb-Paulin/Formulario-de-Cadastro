@@ -36,8 +36,13 @@ body {
 }
 
 .label {
-  font-size: 20px;
+  font-size: 18px;
   color: #53045e;
+}
+
+.form__input {
+  border-radius: 8px;
+  border: none;
 }
 
 form input, form label, form button {
