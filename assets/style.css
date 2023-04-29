@@ -79,3 +79,11 @@ form input, form label, form button {
   font-size: 12px;
   color: red;
 }
+
+.feedback {
+  display: flex;
+  justify-content: center;
+  color: var(--color-container);
+  margin-top: 18rem;
+  font-size: 44px;
+}
