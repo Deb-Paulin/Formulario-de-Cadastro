@@ -1,7 +1,7 @@
 # Formulario de Cadastro
 
 ## Sobre o projeto
-Esse é um formulário de cadastro ispirado no qual é ensinado pelo professor Luiz Otávio Miranda em seu curso: Curso de JavaScript e TypeScript do básico ao avançado.
+Esse é um formulário de cadastro inspirado no qual é ensinado pelo professor Luiz Otávio Miranda em seu curso: Curso de JavaScript e TypeScript do básico ao avançado.
 
 ## Layout do Desafio 
 ![Screenshot from 2023-04-29 19-29-08](https://user-images.githubusercontent.com/113848968/235326695-7bdf9d74-e937-4a7b-a717-bcbf42ff6412.png)
